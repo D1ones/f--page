@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #000000;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.intro h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#searchBar {
+    padding: 10px;
+    width: 60%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+.styled-button {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.styled-button:hover {
+    background-color: #555;
+}
+
+.carousel {
+    position: relative;
+    display: none; /* Esconde o carrossel inicialmente */
+    margin-top: 20px;
+}
+
+.carousel-content {
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    position: relative;
+}
+
+.carousel-item {
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: transform 0.5s ease;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.carousel-item h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.carousel-item p {
+    font-size: 1.2em;
+    max-width: 600px;
+    line-height: 1.5em;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 1.5em;
+    z-index: 2;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.carousel-btn:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+footer{
+    background-color: #333;
+    height: 10rem;
+    width: 500rem;
+}
